@@ -27,8 +27,6 @@ function init() {
     });
 };
 
-init();
-
 // function defined as same name in index.html onchange to update data
 function optionChanged(newSample) {
     barChart(newSample);
@@ -113,3 +111,5 @@ function metaData(sample) {
         console.log(`${sample} metadata loaded`)
     });
 };
+
+init();
